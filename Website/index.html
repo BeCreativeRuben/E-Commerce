@@ -1,11 +1,407 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <title>Demo Layout</title>
+  <link rel="stylesheet" href="css/main.css" />
 </head>
 <body>
-    
+
+<!-- Topbar (Help center, Service) -->
+<div class="topbar">
+  <div class="topbar-left">
+    <img src="https://via.placeholder.com/26x26" alt="Help icon" />
+    <span>Help Center | Service - (920) 222-4242</span>
+  </div>
+  <div class="topbar-right">
+    <span>Download App</span>
+  </div>
+</div>
+
+<!-- Header / Navigation -->
+<header class="main-header">
+  <div class="logo-strip"></div>
+  <div class="nav-left">
+    <ul class="nav-menu">
+      <li>Men</li>
+      <li>Women</li>
+      <li>Kids</li>
+      <li>Blog</li>
+      <li>Contact</li>
+      <li class="sale">SPECIAL SALE</li>
+    </ul>
+  </div>
+
+  <div class="nav-search">
+    <input type="text" placeholder="live your life daily" />
+    <button class="search-btn">
+      <img src="https://via.placeholder.com/16x16" alt="Search" />
+    </button>
+  </div>
+
+  <div class="nav-icons">
+    <div class="nav-icon-circle">
+      <!-- Icon inside circle (like a user profile) -->
+      <div class="avatar-circle"></div>
+    </div>
+    <div class="cart-icon">
+      <div class="cart-shape"></div>
+      <div class="cart-badge">1</div>
+    </div>
+    <!-- Possibly a menu or hamburger icon? -->
+    <div class="small-icon"></div>
+  </div>
+</header>
+
+<!-- Banner / Hero -->
+<section class="hero-banner">
+  <!-- Dots indicator -->
+  <div class="dots-indicator">
+    <div class="dot active"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+  </div>
+  <!-- Big text block -->
+  <div class="hero-text">
+    <h1>Winter Stock</h1>
+    <h2>Summer Collection</h2>
+    <button class="btn-outline">VIEW MORE</button>
+  </div>
+</section>
+
+<!-- "Shop by Category" -->
+<section class="categories container">
+  <h2>Shop by Category</h2>
+  <div class="category-grid">
+    <div class="category-card">
+      <div class="cat-image"></div>
+      <p>Ethnic wear</p>
+    </div>
+    <div class="category-card">
+      <div class="cat-image"></div>
+      <p>Casual wear</p>
+    </div>
+    <div class="category-card">
+      <div class="cat-image"></div>
+      <p>Activewear</p>
+    </div>
+    <div class="category-card">
+      <div class="cat-image"></div>
+      <p>Activewear</p>
+    </div>
+    <div class="category-card">
+      <div class="cat-image"></div>
+      <p>Western waer</p>
+    </div>
+    <div class="category-card">
+      <div class="cat-image"></div>
+      <p>Sports wear</p>
+    </div>
+    <div class="category-card">
+      <div class="cat-image"></div>
+      <p>Lounge wear</p>
+    </div>
+    <div class="category-card">
+      <div class="cat-image"></div>
+      <p>Kids waer</p>
+    </div>
+    <div class="category-card">
+      <div class="cat-image"></div>
+      <p>Footwear</p>
+    </div>
+    <div class="category-card">
+      <div class="cat-image"></div>
+      <p>Formal wear</p>
+    </div>
+  </div>
+</section>
+
+<!-- "Always Ethical & Beautiful" -->
+<section class="ethics-section container">
+  <div class="ethics-images">
+    <!-- Large collage of images -->
+    <div class="big-rect"></div>
+    <div class="smaller-rect1"></div>
+    <div class="smaller-rect2"></div>
+  </div>
+  <div class="ethics-text">
+    <h2>Always Ethical & Beautiful</h2>
+    <p>We partner with high quality jewellers who only recycled gold, AAA-gemstones, and ethically sourced diamonds. Lorem ipsum dolor sit amet...</p>
+    <button class="btn-outline">VIEW COLLECTION</button>
+  </div>
+</section>
+
+<!-- Another wide banner: "Best Collection of Years - 50% OFF" etc. -->
+<section class="wide-banner-1">
+  <div class="left-half">
+    <div class="banner-gradient"></div>
+    <div class="banner-content">
+      <h3>Collect Your</h3>
+      <h1>Best Collection <br/> of Years</h1>
+      <h2>50% OFF</h2>
+      <p class="small-note">Season end on 25th March 2023</p>
+      <button class="btn-dark">SHOP NOW</button>
+    </div>
+  </div>
+  <div class="right-half">
+    <div class="right-banner-content">
+      <h1>Introduction our <br/> new winter collections</h1>
+      <p>We have taken a big leap by changing our main processes and products.</p>
+      <button class="btn-dark">SHOP NOW</button>
+    </div>
+  </div>
+</section>
+
+<!-- "Best Seller Products" -->
+<section class="best-seller container">
+  <h2>Best Seller Products</h2>
+  <div class="product-grid">
+    <!-- 1st product -->
+    <div class="product-card">
+      <div class="prod-img"></div>
+      <div class="prod-info">
+        <h3>La Zoire</h3>
+        <p class="prod-sub">Striped A-Line Top</p>
+        <div class="price-row">
+          <span class="price">$879</span>
+          <span class="old-price">$1599</span>
+          <span class="discount">(45% OFF)</span>
+        </div>
+        <div class="rating">4.2</div>
+      </div>
+    </div>
+    <!-- 2nd product -->
+    <div class="product-card">
+      <div class="prod-img"></div>
+      <div class="prod-info">
+        <h3>Roadster</h3>
+        <p class="prod-sub">Printed Cotton Pure Cotton T-shirt</p>
+        <div class="price-row">
+          <span class="price">$399</span>
+          <span class="old-price">$999</span>
+          <span class="discount">(60% OFF)</span>
+        </div>
+        <div class="rating">4.2</div>
+      </div>
+    </div>
+    <!-- 3rd product -->
+    <div class="product-card">
+      <div class="prod-img"></div>
+      <div class="prod-info">
+        <h3>Kassually</h3>
+        <p class="prod-sub">Floral Cinched Waist Smocked Top</p>
+        <div class="price-row">
+          <span class="price">$491</span>
+          <span class="old-price">$199</span>
+          <span class="discount">(59% OFF)</span>
+        </div>
+        <div class="rating">4.2</div>
+      </div>
+    </div>
+    <!-- 4th product -->
+    <div class="product-card">
+      <div class="prod-img"></div>
+      <div class="prod-info">
+        <h3>Here&now</h3>
+        <p class="prod-sub">Printed Top</p>
+        <div class="price-row">
+          <span class="price">$524</span>
+          <span class="old-price">$1499</span>
+          <span class="discount">(65% OFF)</span>
+        </div>
+        <div class="rating">4.2</div>
+      </div>
+    </div>
+  </div>
+  <button class="btn-outline center-btn">VIEW ALL</button>
+</section>
+
+<!-- Another banner: "We have taken a big leap..." -->
+<section class="big-leap-banner">
+  <div class="big-leap-content">
+    <h1>We have taken a <span>big</span> leap by</h1>
+    <h2>changing our main processes and products</h2>
+    <button class="btn-outline">READ MORE</button>
+  </div>
+</section>
+
+<!-- "Featured Products" -->
+<section class="featured container">
+  <h2>Featured Products</h2>
+  <div class="product-grid">
+    <!-- Repeats like best-seller layout, 4 items example -->
+    <div class="product-card">
+      <div class="prod-img alt"></div>
+      <div class="prod-info">
+        <h3>La Zoire</h3>
+        <p class="prod-sub">Striped A-Line Top</p>
+        <div class="price-row">
+          <span class="price">₹879</span>
+          <span class="old-price">₹1599</span>
+          <span class="discount">(45% OFF)</span>
+        </div>
+        <div class="rating">4.2</div>
+      </div>
+    </div>
+    <div class="product-card">
+      <div class="prod-img alt"></div>
+      <div class="prod-info">
+        <h3>Roadster</h3>
+        <p class="prod-sub">Printed Cotton T-shirt</p>
+        <div class="price-row">
+          <span class="price">₹399</span>
+          <span class="old-price">₹999</span>
+          <span class="discount">(60% OFF)</span>
+        </div>
+        <div class="rating">4.2</div>
+      </div>
+    </div>
+    <div class="product-card">
+      <div class="prod-img alt"></div>
+      <div class="prod-info">
+        <h3>Kassually</h3>
+        <p class="prod-sub">Floral Cinched Waist</p>
+        <div class="price-row">
+          <span class="price">₹491</span>
+          <span class="old-price">₹199</span>
+          <span class="discount">(59% OFF)</span>
+        </div>
+        <div class="rating">4.2</div>
+      </div>
+    </div>
+    <div class="product-card">
+      <div class="prod-img alt"></div>
+      <div class="prod-info">
+        <h3>Here&now</h3>
+        <p class="prod-sub">Printed Top</p>
+        <div class="price-row">
+          <span class="price">₹524</span>
+          <span class="old-price">₹1499</span>
+          <span class="discount">(65% OFF)</span>
+        </div>
+        <div class="rating">4.2</div>
+      </div>
+    </div>
+  </div>
+  <button class="btn-outline center-btn">VIEW ALL</button>
+</section>
+
+<!-- Another "Summer Collections" row (two big images: Women, Men) -->
+<section class="summer-collections container">
+  <div class="collections-text">
+    <h2>Summer Collections</h2>
+    <p>
+      We partner with high quality jewellers who only recycled gold... Lorem ipsum...
+    </p>
+    <button class="btn-outline">VIEW COLLECTION</button>
+  </div>
+  <div class="collections-images">
+    <div class="collection-box women">
+      <h3>Women</h3>
+    </div>
+    <div class="collection-box men">
+      <h3>Men</h3>
+    </div>
+  </div>
+</section>
+
+<!-- Some logos row -->
+<section class="logo-row container">
+  <img src="https://via.placeholder.com/112x99" alt="Brand" />
+  <img src="https://via.placeholder.com/112x99" alt="Brand" />
+  <img src="https://via.placeholder.com/112x99" alt="Brand" />
+  <img src="https://via.placeholder.com/112x99" alt="Brand" />
+  <img src="https://via.placeholder.com/112x99" alt="Brand" />
+  <img src="https://via.placeholder.com/112x99" alt="Brand" />
+</section>
+
+<!-- Follow on Instagram -->
+<section class="instagram container">
+  <h2>Follow on Instagram</h2>
+  <div class="insta-grid">
+    <div class="insta-item"></div>
+    <div class="insta-item"></div>
+    <div class="insta-item"></div>
+    <div class="insta-item"></div>
+  </div>
+</section>
+
+<!-- Newsletter -->
+<section class="newsletter">
+  <div class="newsletter-top">
+    <h2>Subscribe Newsletter <br/>& letest Update of Company</h2>
+    <div class="newsletter-form">
+      <input type="text" placeholder="Enter Email Address" />
+      <button>Sign Up</button>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-upper">
+    <div class="footer-contact">
+      <h3>Contact</h3>
+      <p>Lorem Ipsum, 235 Simply,<br/>printing, Pin 309 309</p>
+      <p>rohanpatel00752@gmail.com</p>
+      <p>+1 00000 00000</p>
+    </div>
+    <div class="footer-col">
+      <h3>Information</h3>
+      <ul>
+        <li>Men</li>
+        <li>Women</li>
+        <li>Kids</li>
+        <li>Home & Living</li>
+        <li>Beauty</li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h3>Explore</h3>
+      <ul>
+        <li>Blog</li>
+        <li>Gift Cards</li>
+        <li>Financing</li>
+        <li>Reviews</li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h3>Contact Us</h3>
+      <ul>
+        <li>FAQ</li>
+        <li>Track Orders</li>
+        <li>Shipping</li>
+        <li>Cancellation</li>
+        <li>Returns</li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h3>Support</h3>
+      <ul>
+        <li>Help Center</li>
+        <li>News</li>
+        <li>Career</li>
+        <li>Terms of Use</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-lower">
+    <div class="copyright">
+      © 2023 AVA, All Rights Reserved.
+    </div>
+    <div class="privacy">
+      Privacy Policy | Terms & Conditions
+    </div>
+    <div class="footer-icons">
+      <!-- social / payment icons etc. -->
+      <span class="icon"></span>
+      <span class="icon"></span>
+      <span class="icon"></span>
+      <span class="icon"></span>
+    </div>
+  </div>
+</footer>
+
 </body>
 </html>
